@@ -1,0 +1,39 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 45px;
+}
+.colorful-text {
+  color: coral;
+}
+section header {
+  display: flex;
+}
+.header-left {
+  width: 50%;
+  padding-left: 8%;
+}
+.header-right {
+  width: 50%;
+  padding-left: 10%;
+}
+.header-right img {
+  width: 80%;
+}
+.btn-hire {
+  text-decoration: none;
+  background-image: linear-gradient(coral, tomato);
+  padding: 10px 40px;
+  border-radius: 7px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+.header-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
